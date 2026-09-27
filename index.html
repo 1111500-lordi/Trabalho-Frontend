@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-BR">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Google</title>
     <link rel="stylesheet" href="style.css">
     </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="https://mail.google.com/">
+                Gmail
+            </a>
+            <a href="https://images.google.com/">
+                Imagens
+            </a>
+        </nav>
+    </header>
 <main>
     <div>
-        <img src="imagens/google.jpg" alt="google">
+        <img src="imagens/google.png" alt="google">
         <form action="https://www.google.com/search" method="get">
             <label for="busca"> Pesquisar no Google </label>
                 <input type="search" id="busca" name="q">
+            <div class="botoes">
             <button type="submit"  >
                 Pesquisa Google
             </button>
-            
-
-
+            <button type="button">
+                Estou com Sorte
+            </button>
+            </div>
         </form>
-
     </div>
-
 </main>
-
+<footer>
+    <p>Brasil</p>
+    <nav>
+    <a href="#">Sobre</a>
+    <a href="#">Privacidade</a>
+    </nav>
+<p class="aviso-clone">
+    Projeto acadêmico: reprodução visual da página inicial do Google.
+</p>
+</footer>
 
 </body>
 
