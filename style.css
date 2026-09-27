@@ -85,3 +85,8 @@ footer a {
     font-size: 12px;
     color: #9aa0a6;
 }
+#busca:focus {
+    outline: none;
+    border-color: #8ab4f8;
+    box-shadow: 0 0 0 1px #8ab4f8;
+}
