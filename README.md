@@ -64,7 +64,24 @@ Este projeto é uma reprodução visual da página inicial do Google em modo esc
 ```text
 .
 ├── imagens/
-│   └── google.png
+│   ├── google.png
+│   └── comparacao-desktop.png
 ├── index.html
 ├── style.css
 └── README.md
+```
+
+## Comparação visual
+
+![Comparação entre o clone desenvolvido e a página original do Google](imagens/comparacao-desktop.png)
+
+## Como executar
+
+1. Baixe ou clone este repositório.
+2. Abra o arquivo `index.html` em um navegador.
+3. Digite um termo no campo de busca.
+4. Clique em **Pesquisa Google** ou pressione Enter.
+
+## Validação
+
+- [x] HTML validado no W3C Nu HTML Checker em 28/09/2026, sem erros ou avisos.
